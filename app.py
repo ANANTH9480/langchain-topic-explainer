@@ -9,7 +9,7 @@ import streamlit as st
 
 load_dotenv()
 
-os.environ['GOOGLE_API_KEY']=st.secrets('gemini_key')
+os.environ['GOOGLE_API_KEY']=st.secrets['gemini_key']
 
 #Prompt template
 prompt_template=ChatPromptTemplate.from_messages([
