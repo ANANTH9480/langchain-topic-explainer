@@ -18,7 +18,7 @@ prompt_template=ChatPromptTemplate.from_messages([
 ])
 
 #llm
-llm=init_chat_model('google_genai:gemini-3.5-flash-lite')
+llm=init_chat_model('google_genai:gemini-3.8-flash')
 
 #parser
 parser=StrOutputParser()
